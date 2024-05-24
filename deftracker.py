@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-
+import openpyxl
 # Function to load the Excel file
 @st.cache_data
 def load_data(file):
